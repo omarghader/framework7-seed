@@ -1,5 +1,5 @@
 ## Framework7-seed
-I saw that there is not a well structured seed for Framework7 apps.
+I have found that there is not a well structured seed for Framework7 apps.
 So i decided to create this seed.
 
 ## Build Tools
@@ -7,14 +7,12 @@ So i decided to create this seed.
 This seed use different build tools to build the same project, Hope it will helps you select a suitable build tool.
 
 * `webpack` at origin/master
-* `fis3` at [origin/fis3](https://github.com/BelinChung/HiApp/tree/fis3)
-* `[DEPRECATED] grunt` at [origin/grunt](https://github.com/BelinChung/HiApp/tree/grunt)
 
 ## Requirements
 
 * framework7 `^1.4.0`
 
-## How to use seed
+## How to use
 
 Start using this seed by cloning this repository and installing dependencies
 ```
