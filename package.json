@@ -13,8 +13,8 @@
     "dev": "webpack --config build/webpack/development.js --progress --watch",
     "build": "NODE_ENV=production npm run clean && webpack --config build/webpack/production.js --progress",
     "build_with_source_map": "npm run build --devtool source-map",
-    "android":"rm -rf android/www/* && cp -r app/* android/www && cd android && cordova run android",
-    "android-release":"rm -rf android/www/* && cp -r app/* android/www && cd android && cordova run android --release"
+    "android":"rm -rf android/www/* && cp -r www/* android/www && cd android && cordova run android",
+    "android-release":"rm -rf android/www/* && cp -r www/* android/www && cd android && cordova run android --release"
   },
   "devDependencies": {
     "css-loader": "^0.23.1",

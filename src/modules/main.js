@@ -1,4 +1,4 @@
-require('framework7');
+// require('framework7');
 require('../style/less/app.less');
 
 var appFunc = require('./utils/appFunc'),
@@ -73,6 +73,7 @@ var app = {
             modalButtonOk: "ok",
             modalButtonCancel: "cancel",
             template7Pages: true,
+            material:true,
             template7Data: {
                 'page:about': {
                     appName: i18n.app.name,
@@ -82,7 +83,7 @@ var app = {
         });
 
         window.homeF7View = F7app.addView('.view-main', {
-            // dynamicNavbar: true
+            dynamicNavbar: true
         });
 
         // init app

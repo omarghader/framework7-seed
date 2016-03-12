@@ -18,7 +18,7 @@ module.exports = {
 
         if(name === 'homeView' || name === 'contactView' || name === 'setting' ){
             if(from === 'left'){
-                //do something here
+                F7app.alert("Hello World")
             }
         }
     },
